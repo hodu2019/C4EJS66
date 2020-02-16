@@ -60,42 +60,43 @@
 // //     console.log("wrong")
 // // }
 
-// let test = 'true'
-// if(errorNumber != 0){
-//     test = 'false'
-// }
 
-// let userInput = prompt("Nhập T/F").toLowerCase()
 
-// if(userInput == test) {
-//     console.log("Được điểm rùi")
-// } else {
-//     console.log("Sai rùi")
-// }
 
-// function tinhtong () {
-//     {let x = 10
-//         {console.log(x)}
-//     }
-//     {var y = 5}
-//     console.log(y)
-// }
-// tinhtong()
-// console.log(x)
-// console.log(tinhtong())
-// // if(tinhtong() == 15) {
-// //     console.log(true)
-// // }
-// helloSomeone("Đức")
-function helloSomeone (name) {
+
+function hello (name) {
     console.log("Hello", name)
 }
 
-// // helloSomeone("Hà")
+let tenNguoi = "Tran Duc Nam"
 
-taoPhepTinh()
-const taoPhepTinh = () => {
-    return `${x}`
+hello("Duc")
+hello("Nam")
+hello("Viet")
+hello(tenNguoi)
+
+function calc (x,y){
+    return x + y
 }
 
-console.log(taoPhepTinh())
+// let result = calc(5,6)
+
+// if (calc(10,20) < 20){
+//     console.log("Tuoi nho")
+// } else {
+//     console.log("Tuoi Lon")
+// }
+
+console.log(result)
+
+const SayByeBye = (name) => {
+    return `Say bye bye ${name}`
+}
+
+// console.log(SayByeBye("Duc"))
+
+// setTimeout(() => {
+//     console.log("hihi")
+// },1000)
+// console.log("haha")
+

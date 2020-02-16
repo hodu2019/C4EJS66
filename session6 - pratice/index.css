@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    font-size: large;
+}
+
+p {
+    color: green;
+}
+
+#name {
+    color: black;
+}
+
+.color-p {
+    color: blue
+}
+
+
+.parent {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.child {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+/* margin
+padding
+
+grid 
+flexbox */
